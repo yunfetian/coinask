@@ -1,0 +1,42 @@
+什么是Loom Network
+就在一年多以前，2017年，以太坊发展迅猛看起来很快就会超过比特币，成为最大市值的加密货币。但正如大家所知，实际情况呢？ 作为图灵完备的区块链，以太坊比比特币拥有更多的应用程序，具有更高的灵活性。
+ Source: https://www.flippening.watch/charts/
+
+虽然以太网作为平台加密货币的最强竞争对手EOS自今年夏天主网上线以来一直争议不断，但以太坊自身的问题也在过去一年中引起了人们的关注。
+以太坊面临着和比特币相同的问题：扩容性。 去年12月，当CryptoKitties这款以太坊平台上的游戏以病毒般速度传播并导致以太坊区块链出现严重拥堵时，给所有拥簇以太坊的人敲响了警钟。 对于一个旨在支持数无数个dapps的平台来说，只有一个dapp的疯狂几乎可以淹没整个网络令人感到担忧。 以太坊的交易吞吐量需要大幅增加。
+但从长远来看，就像广大太坊支持者了解的那样，为了解决可扩展性问题以太坊团队正在进行Plasma和sharding解决方案。 但大多数以太坊支持者不太了解的是，可扩展性解决方案已经存在且可以投入生产。
+它被称为Loom Network,在阅读本文之后，您将清楚的了解它是什么，它是怎样工作，以及将如何能够在现在和未来帮助以太坊改善扩容问题。
+Loom Network到底是什么?
+Loom Network是一个加密货币项目，它已经建立（并且正在不断改进）基础设施，以便立即帮助以太坊扩展。 它的主要产品是软件开发工具包（SDK），它教导和指导开发人员进行智能合约编程的学习。
+以太坊通过提供平台，降低了编写智能合约和创建分散应用程序的准入门槛。 Loom Network则通过实例一步步的向开发人员展示如何从零开始构建一个dapp。
+现在您可能想知道，SDK如何成为可扩展性解决方案？ 这就是事情变得有趣的地方。 你看，Loom Network不只是教会开发人员如何在以太坊上构建dapps。 他们正在教他们如何构建高度可扩展的游戏和面向用户的dapps，它们仍然受到以太坊安全性的支持。
+换句话说，如果CryptoKitties是使用Loom SDK构建的，那么Ethereum在处理其每天近5,000次交易时就会很好，因为它去年12月已经病毒式传播。 而不是在memepool中的20,000多个未决交易以及极高的交易费用，一切都将继续正常进行。 怎么样？ 我会解释......
+Loom Network怎样工作
+ 
+了解Loom SDK的关键概念是它生成一个名为DAppChains的东西。 这意味着dapps可以构建在使用以太坊作为基础层的第二层区块链上，使其具有高度可定制性和可扩展性。
+正如织机网络综合项目指南中所解释的那样，为使用Loom SDK构建的dapps带来了几个好处，其中最大的两个是：
+•DAppChains可以使用其他共识机制来证明工作，例如EOS使用的更具可扩展性的委托证明（DPoS）。
+•与基于EOS构建的dapps不同，使用Loom SDK构建的DAppChains可以完全保证以太坊及其更加分散的工作证明（以及最终的Proof-of-Stake）共识协议。
+作为基础层共识机制，Delegated Proof-of-Stake在实现其可扩展性方面做出了一些可疑的权衡。 但作为第二层解决方案，它允许可能具有大量交易量的dapps（即，在线游戏，社交应用程序等）扩展到数百万用户，而不会导致以太坊区块链的严重拥塞。
+最终，DAppChains使得Ethereum更容易使用，因为它是一个高度安全但基本的基础层平台，支持更复杂和功能丰富的应用程序。
+Loom Network and Plasma
+ 
+Loom Network不仅通过DAppChains帮助以太坊扩展 - Loom团队也加入了以太坊令牌团队的行列，以开展一般的以太坊扩展项目。 在这种情况下，Loom Network是第一个发布Plasma Cash实施的项目，这是Vitalik Buterin去年3月在巴黎以太坊社区会议上首次提出的一个想法。
+Plasma Cash的主要目的是减少智能合约和dapps使用以太坊区块链必须支付的交易（Gas）费用。 在深入了解Loom Network如何发挥作用之前，这里是Plasma Cash工作原理的基本摘要。
+Plasma Cash的简单介绍
+When somebody deposits tokens onto the blockchain, they are collectively assigned a single unique ID. At that point, the tokens can not be divided or merged with other tokens. This changes how the transaction history is stored, making the process of validating new transactions much faster by eliminating the need to review the entire chain. Plasma operators can now easily isolate the history of the relevant tokens with their unique ID, making the whole process more efficient.
+当某人将令牌存放到区块链上时，他们被共同分配一个唯一的ID。 此时，令牌不能与其他令牌分开或合并。 这会更改事务历史记录的存储方式，从而无需查看整个链，从而更快地验证新事务的过程。 Plasma操作员现在可以轻松地将相关令牌的历史与其唯一ID隔离开来，从而使整个过程更加高效。
+使用Plasma现金改善DAppChains
+Loom Network利用Plasma Cash来提高其已经高度可扩展的侧链的效率和安全性。 实际上，Plasma Cash甚至可以实现零确认交易。
+The implementation of Plasma Cash can give DAppChain users complete confidence in knowing that they can reclaim their funds – or collectibles, in the case of ERC-721 tokens – on the Ethereum blockchain through Plasma exits in the event of a hack or fraud. (A Plasma exit works somewhat similarly to closing a payment channel in the Lightning Network.)
+Plasma Cash的实施可以让DAppChain用户完全放心，他们知道他们可以在发生黑客或欺诈事件时通过Plasma出口在以太坊区块链上收回他们的资金 - 或者收集ERC-721令牌的收藏品。 （Plasma出口的工作方式与关闭Lightning Network中的支付渠道类似。）
+这种增加的安全性至关重要，因为在使用DPoS作为侧链的共识机制时进行了权衡。 如前所述，DPoS不像PoW那样分散，因为它要求用户信任一组选定的节点运营商，而不是让所有区块链矿工竞争提出有效的块并获得块奖励。
+如果DPoS失败或在不太可能发生第二层安全漏洞的情况下为用户提供追索手段，Plasma Cash将大大增强Loom Network的现有产品。
+最重要的是，Loom Network已经实施了Plasma Cash，可以在Loom侧链上安全，无信地交换ERC-721令牌。 同时，Loom团队正在努力增加对ERC-20令牌和ETH本身的支持，以及启用令牌拆分和合并，以便他们可以在未来扩展Plasma Cash的可能用途。
+总结
+令人惊讶的是，目前很少有顶级加密货币具有为加密货币生态系统提供真正实用性的工作产品。 Loom Network仍然是一个年轻的项目 - 成立于2017年10月 - 但这并没有阻止Loom团队为帮助以太坊扩展做出一些重大贡献。
+Considering what has already been accomplished in such a short time, Loom Network appears to be one of the most promising Ethereum projects out there, and one that’s well worth watching in the months ahead.
+如果希望了解更多内容可以通过以下渠道进行关注。
+官方网站：
+官方Medium：
+官方电报群：
